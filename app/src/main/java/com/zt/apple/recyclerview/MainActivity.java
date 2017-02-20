@@ -25,13 +25,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initFruitList() {
-        Fruit apple=new Fruit("apple",R.drawable.apple);
-        mFruitList.add(apple);
-        Fruit banana=new Fruit("banana",R.drawable.banana);
-        mFruitList.add(banana);
-        Fruit orenge=new Fruit("orenge",R.drawable.orenge);
-        mFruitList.add(orenge);
-        Fruit pipe=new Fruit("pipe",R.drawable.pipe);
-        mFruitList.add(pipe);
+        for(int i=0;i<15;i++){
+            Fruit apple=new Fruit("apple",R.drawable.apple);
+            mFruitList.add(apple);
+            Fruit banana=new Fruit("banana",R.drawable.banana);
+            mFruitList.add(banana);
+            Fruit orenge=new Fruit("orenge",R.drawable.orenge);
+            mFruitList.add(orenge);
+            Fruit pipe=new Fruit("pipe",R.drawable.pipe);
+            mFruitList.add(pipe);
+        }
+
     }
 }
